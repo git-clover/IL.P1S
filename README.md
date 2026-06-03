@@ -38,6 +38,7 @@ The current release is <ins>**0.1**</ins>, updates coming soon (pinky promise)
 - ✖ Toolhead boards
 - ✖ Filament runout detection (I'll fix this later on!)
 - ✖ Not everything is plug and play. There is a PCB design available to make this non destructive You will need to splice on extension cables + JST XH 2.54 or DuPont 2.54 connectors.
+- ✖ You must EXPLICITLY generate a new printer on OrcaSlicer. Stock config is cloud-only and cannot be re-routed to your new setup.
 
 ## Literally why, what is the damn point.. my Bambu works fine!!!!????
 
