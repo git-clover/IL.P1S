@@ -1,4 +1,4 @@
-## IL.P1S
+## IL.P1S / IL.X1C
 
 <!--
 ![Klipper Logo](/images/logo_new.png)
