@@ -24,20 +24,21 @@ Find extensive documentation, including a BOM and lots more [**here**](https://d
 
 The current release is <ins>**0.1**</ins>, updates coming soon (pinky promise)
 
-## What works? (as of release <ins>**0.1**</ins>)
+## What works?
 - ✓ The full hotend and extruder assembly
 - ✓ Heatbed control with the Stock SSR
 - ✓ The entire motion system is unchanged
 - ✓ All fans work if wired correctly (PWM and Tach control needs to be added)
 - ✓ Bambu Lab AMS does work via the [**OpenAMS project**](https://github.com/OpenAMSOrg)
 - ✓ Piezoelectric Probing was proven to work, check out [the docs](https://docs.chazmakes.com/piezoelectric-sensors.html)
+- $ Webcam (Buy an X1 camera and wire it up through USB instead)
 
-- ✖ Any Eddy current (I will tweak around the toolhead soon)
-- ✖ Webcam (You can purchase the X1C camera and wire it up as a USB camera)
-- ✖ Stock display (Never!)
-- ✖ Toolhead boards
-- ✖ Filament runout detection (I'll fix this later on!)
-- ✖ Not everything is plug and play. There is a PCB design available to make this non destructive You will need to splice on extension cables + JST XH 2.54 or DuPont 2.54 connectors.
+- [?] Toolhead boards: I'm working hard to make EBB-36 work
+- [?] Cartographer V4 / Beacon Rev.H
+- [?] Filament runout detection (I think I found it?!)
+
+- ✖ Stock display (NEVER!)
+- ✖ Any stock fan, unless you cut the wires
 - ✖ You must EXPLICITLY generate a new printer on OrcaSlicer. I'll try my best to erase this issue from existence.
 
 ## Literally why, what is the damn point.. my Bambu works fine!!!!????
