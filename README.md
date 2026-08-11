@@ -18,11 +18,9 @@ Welcome to IL.P1S! This fork is based on Chaz's effort; consider [**buying him a
 
 <!-- The project is STILL in beta, with 2 working P1K in the wild. This is a **non-destructive (PCB Only)**, or **destructive** upgrade path to [**Klipper**](https://www.klipper3d.org/), on a Bambu Lab P1 or X1. This means replacing the existing electronics with OSHW. A custom PCB has been designed to make everything plug and play with the fans, heatbed etc. BLKC runs on a fork of Klipper known as [**Kalico**](https://github.com/KalicoCrew/kalico). Make sure to get yourself familiarized with [**The Klipper Docs**](https://www.klipper3d.org/) or [**The Kalico Docs**](https://github.com/KalicoCrew/kalico/tree/main/docs) -->
 
-If you wish to re-use your AMS 1, please check out [OpenAMS](https://openams.si-forge.com/).
+If you wish to re-use your AMS 1, please check out [OpenAMS.](https://openams.si-forge.com/) Adaptors coming soon!
 
-Find extensive documentation, including a BOM and lots more [**here**](https://docs.chazmakes.com/)!
-
-The current release is <ins>**0.1**</ins>, updates coming soon (pinky promise)
+Find extensive documentation, including BOM and lots more [**right here!**](https://docs.chazmakes.com/)
 
 ## What works?
 - ✓ The full hotend and extruder assembly
@@ -30,18 +28,17 @@ The current release is <ins>**0.1**</ins>, updates coming soon (pinky promise)
 - ✓ The entire motion system is unchanged
 - ✓ All fans work if wired correctly (PWM and Tach control needs to be added)
 - ✓ Bambu Lab AMS does work via the [**OpenAMS project**](https://github.com/OpenAMSOrg)
-- ✓ Piezoelectric Probing was proven to work, check out [the docs](https://docs.chazmakes.com/piezoelectric-sensors.html)
+- ✓ Piezoelectric Probing! check out [the docs](https://docs.chazmakes.com/piezoelectric-sensors.html)
+- ✓ Toolhead boards: Bigtreetech EBB-36 (for now; I'll work for more boards)
+- ✓ Cartographer V4 / Beacon Rev.H
+- ✓ Back cover: [**RELEASED!**](https://makerworld.com/models/3159478-il-p1s-rear-toolhead-cover-for-ebb36)
 
 - [?] Webcam (Standard USB layout, but I don't know what is what. GG for now)
-- [?] Toolhead boards: I'm working hard to make EBB-36 work
-- [?] Cartographer V4 / Beacon Rev.H
 - [?] Filament runout detection (I think I found it?!)
-- [?] Same thing, but on X1C
 
 - ✖ Stock display (NEVER!)
-- ✖ A few stock fans
 - ✖ You must EXPLICITLY generate a new printer on OrcaSlicer. I'll try my best to erase this issue from existence.
 
 ## Literally why, what is the damn point.. my Bambu works fine!!!!????
 
-At first, this was entirely just a joke. More of a "why not" sort of thing. But as time went on the benefits outweighed the drawbacks. It provides a great platform for modding and gives you full control. Most importantly, having the heatbed capable of running at 110 [degree symbol]C! Whatever you can think of, you can do it with this platform. Another upside is it also completely eliminates the Bambu Cloud, allowing you to run everything locally, or even use your own cloud service. No lockdowns, **your printer is YOURS.**
+At first, this was entirely just a joke. More of a "why not" sort of thing. But as time went on the benefits outweighed the drawbacks. It provides a great platform for modding and gives you full control. Most importantly, having the heatbed capable of running at [120 °C](https://bambulab.com/x2d) if you're a *little* frisky! Whatever you can think of, you can do it with this platform. Another upside is it also completely eliminates the Bambu Cloud, allowing you to run everything locally, or even use your own cloud service. No lockdowns, **your printer is YOURS.**
