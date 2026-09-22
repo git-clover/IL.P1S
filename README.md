@@ -14,7 +14,7 @@
 > 
 > Stay ready to print a replacement part AT ALL TIMES. You may break something.
 
-Welcome to IL.P1S! This fork is based on Chaz's effort; consider [**buying him a few V6 nozzles. (Ko-Fi)**](https://ko-fi.com/chazmakes)
+Welcome to IL.P1S! Chaz laid all the grounds for this; from now, [**YOU WILL LOBBY CHAZ TO MAKE EVEN MORE THINGS AND YOU WILL LIKE IT! (Ko-Fi)**](https://ko-fi.com/chazmakes)
 
 <!-- The project is STILL in beta, with 2 working P1K in the wild. This is a **non-destructive (PCB Only)**, or **destructive** upgrade path to [**Klipper**](https://www.klipper3d.org/), on a Bambu Lab P1 or X1. This means replacing the existing electronics with OSHW. A custom PCB has been designed to make everything plug and play with the fans, heatbed etc. BLKC runs on a fork of Klipper known as [**Kalico**](https://github.com/KalicoCrew/kalico). Make sure to get yourself familiarized with [**The Klipper Docs**](https://www.klipper3d.org/) or [**The Kalico Docs**](https://github.com/KalicoCrew/kalico/tree/main/docs) -->
 
@@ -23,22 +23,22 @@ If you wish to re-use your AMS 1, please check out [OpenAMS.](https://openams.si
 Find extensive documentation, including BOM and lots more [**right here!**](https://docs.chazmakes.com/)
 
 ## What works?
-- ✓ The full hotend and extruder assembly
+- ✓ The full hotend and extruder assembly (standard NEMA-14 stepper)
 - ✓ Heatbed control with the Stock SSR
-- ✓ The entire motion system is unchanged
+- ✓ The entire motion system is unchanged (unless you decide to)
 - ✓ All fans work if wired correctly (PWM and Tach control needs to be added)
 - ✓ Bambu Lab AMS does work via the [**OpenAMS project**](https://github.com/OpenAMSOrg)
 - ✓ Piezoelectric Probing! check out [the docs](https://docs.chazmakes.com/piezoelectric-sensors.html)
 - ✓ Toolhead boards: Bigtreetech EBB-36 (for now; I'll work for more boards)
 - ✓ Cartographer V4 / Beacon Rev.H
 - ✓ Back cover: [**RELEASED!**](https://makerworld.com/models/3159478-il-p1s-rear-toolhead-cover-for-ebb36)
+- ✓ Profiles: Use "Orca Arena X1 Carbon" and rename it to IL.P1S (What a perk!)
+- ✓ Even better, just use IL.X1C on [Backstage.IL!](https://github.com/git-clover/Backstage.IL)
 
-- [?] Webcam (Standard USB layout, but I don't know what is what. GG for now)
+- [?] Webcam (Standard USB layout, but I don't know what is what. I'll test this later)
 - [?] Filament runout detection (I think I found it?!)
 
 - ✖ Stock display (NEVER!)
-- ✖ You must EXPLICITLY generate a new printer on OrcaSlicer. I'll try my best to erase this issue from existence.
-
 ## Literally why, what is the damn point.. my Bambu works fine!!!!????
 
 At first, this was entirely just a joke. More of a "why not" sort of thing. But as time went on the benefits outweighed the drawbacks. It provides a great platform for modding and gives you full control. Most importantly, having the heatbed capable of running at [120 °C](https://bambulab.com/x2d) if you're a *little* frisky! Whatever you can think of, you can do it with this platform. Another upside is it also completely eliminates the Bambu Cloud, allowing you to run everything locally, or even use your own cloud service. No lockdowns, **your printer is YOURS.**
