@@ -10,7 +10,7 @@
 > [!Caution]
 > This is a fork of a beta project. Chaz and I are not responsible for anything done to your machine.
 > 
-> Be brave enough to sacrifice your warranty, or think again.
+> Be brave enough to [sacrifice your warranty](https://www.youtube.com/watch?v=J60byc3myJ8&t=403s), or think again.
 > 
 > Stay ready to print a replacement part AT ALL TIMES. You may break something.
 
