@@ -1,4 +1,4 @@
-## IL.P1S / IL.X1C
+# IL.P1S / IL.X1C
 
 <!--
 ![Klipper Logo](/images/logo_new.png)
@@ -18,27 +18,33 @@ Welcome to IL.P1S! Chaz laid all the grounds for this; from now, [**YOU WILL LOB
 
 <!-- The project is STILL in beta, with 2 working P1K in the wild. This is a **non-destructive (PCB Only)**, or **destructive** upgrade path to [**Klipper**](https://www.klipper3d.org/), on a Bambu Lab P1 or X1. This means replacing the existing electronics with OSHW. A custom PCB has been designed to make everything plug and play with the fans, heatbed etc. BLKC runs on a fork of Klipper known as [**Kalico**](https://github.com/KalicoCrew/kalico). Make sure to get yourself familiarized with [**The Klipper Docs**](https://www.klipper3d.org/) or [**The Kalico Docs**](https://github.com/KalicoCrew/kalico/tree/main/docs) -->
 
-If you wish to re-use your AMS 1, please check out [OpenAMS.](https://openams.si-forge.com/) Adaptors coming soon!
-
 Find extensive documentation, including BOM and lots more [**right here!**](https://docs.chazmakes.com/)
 
-## What works?
+## BOYCOTT OpenAMS: Why monopoly is DANGEROUS
+**This is your last warning.** Read this before doing anything.
+> F*** OpenAMS. Their boards aren't even being stocked up. You and I both have no source files available.
+>
+> Then what should we do? That's easy. Don't use it; use BoxTurtle instead.
+> 
+> Roll the feeders every 12 mm. It's enough for the buffer, and there's a reason AND a benefit of this.
+>
+> Even better, you don't even need to use big buffers because your Bambu already has one!
+
+## What works? (Obviously not the stock display)
 - ✓ The full hotend and extruder assembly (standard NEMA-14 stepper)
 - ✓ Heatbed control with the Stock SSR
 - ✓ The entire motion system is unchanged (unless you decide to)
 - ✓ All fans work if wired correctly (PWM and Tach control needs to be added)
-- ✓ Bambu Lab AMS does work via the [**OpenAMS project**](https://github.com/OpenAMSOrg)
 - ✓ Piezoelectric Probing! check out [the docs](https://docs.chazmakes.com/piezoelectric-sensors.html)
 - ✓ Toolhead boards: Bigtreetech EBB-36 (for now; I'll work for more boards)
 - ✓ Cartographer V4 / Beacon Rev.H
 - ✓ Back cover: [**RELEASED!**](https://makerworld.com/models/3159478-il-p1s-rear-toolhead-cover-for-ebb36)
-- ✓ Profiles: Use "Orca Arena X1 Carbon" and rename it to IL.P1S (What a perk!)
+- ✓ Profiles: Use "Orca Arena X1 Carbon" and rename it IL.P1S (What a perk!)
 - ✓ Even better, just use IL.X1C on [Backstage.IL!](https://github.com/git-clover/Backstage.IL)
 
 - [?] Webcam (Standard USB layout, but I don't know what is what. I'll test this later)
 - [?] Filament runout detection (I think I found it?!)
-
-- ✖ Stock display (NEVER!)
+- Build your own MMU
 ## Literally why, what is the damn point.. my Bambu works fine!!!!????
 
 At first, this was entirely just a joke. More of a "why not" sort of thing. But as time went on the benefits outweighed the drawbacks. It provides a great platform for modding and gives you full control. Most importantly, having the heatbed capable of running at [120 °C](https://bambulab.com/x2d) if you're a *little* frisky! Whatever you can think of, you can do it with this platform. Another upside is it also completely eliminates the Bambu Cloud, allowing you to run everything locally, or even use your own cloud service. No lockdowns, **your printer is YOURS.**
