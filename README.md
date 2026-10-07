@@ -19,7 +19,7 @@ Welcome to IL.P1S! Chaz laid all the grounds for this; from now, [**YOU WILL LOB
 <!-- The project is STILL in beta, with 2 working P1K in the wild. This is a **non-destructive (PCB Only)**, or **destructive** upgrade path to [**Klipper**](https://www.klipper3d.org/), on a Bambu Lab P1 or X1. This means replacing the existing electronics with OSHW. A custom PCB has been designed to make everything plug and play with the fans, heatbed etc. BLKC runs on a fork of Klipper known as [**Kalico**](https://github.com/KalicoCrew/kalico). Make sure to get yourself familiarized with [**The Klipper Docs**](https://www.klipper3d.org/) or [**The Kalico Docs**](https://github.com/KalicoCrew/kalico/tree/main/docs) -->
 
 Find extensive documentation, including BOM and lots more [**right here!**](https://docs.chazmakes.com/)
-
+<!--
 ## BOYCOTT OpenAMS: Why monopoly is DANGEROUS
 **This is your last warning.** Read this before doing anything.
 > F*** OpenAMS. Their boards aren't even being stocked up. You and I both have no source files available.
@@ -29,7 +29,7 @@ Find extensive documentation, including BOM and lots more [**right here!**](http
 > Roll the feeders every 12 mm. It's enough for the buffer, and there's a reason AND a benefit of this.
 >
 > Even better, you don't even need to use big buffers because your Bambu already has one!
-
+-->
 ## What works? (Obviously not the stock display)
 - ✓ The full hotend and extruder assembly (standard NEMA-14 stepper)
 - ✓ Heatbed control with the Stock SSR
@@ -44,7 +44,6 @@ Find extensive documentation, including BOM and lots more [**right here!**](http
 
 - [?] Webcam (Standard USB layout, but I don't know what is what. I'll test this later)
 - [?] Filament runout detection (I think I found it?!)
-- Build your own MMU
 ## Literally why, what is the damn point.. my Bambu works fine!!!!????
 
 At first, this was entirely just a joke. More of a "why not" sort of thing. But as time went on the benefits outweighed the drawbacks. It provides a great platform for modding and gives you full control. Most importantly, having the heatbed capable of running at [120 °C](https://bambulab.com/x2d) if you're a *little* frisky! Whatever you can think of, you can do it with this platform. Another upside is it also completely eliminates the Bambu Cloud, allowing you to run everything locally, or even use your own cloud service. No lockdowns, **your printer is YOURS.**
